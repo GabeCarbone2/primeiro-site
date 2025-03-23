@@ -20,6 +20,6 @@ Este repositório contém o código-fonte de um sistema de cadastro de tarefas, 
    git clone https://github.com/GabeCarbone2/primeiro-site.git
 
 
-## Código funcionando
+## Imagem do código
 
 ![Funcionamento do código](primeiro-site/images/2025-03-23_18-29.png)
