@@ -1,20 +1,19 @@
 # 🌐 Primeiro Site
 
-Este é o meu primeiro projeto de site pessoal, desenvolvido para aprimorar minhas habilidades em desenvolvimento web e compartilhar informações sobre mim.
+Este é o meu primeiro projeto de site pessoal, desenvolvido para aprimorar minhas habilidades em desenvolvimento web junto a faculdade
 
 ## 🚀 Tecnologias Utilizadas
 
-- **HTML**: Estruturação do conteúdo.  
-- **CSS**: Estilização e layout.  
-- **JavaScript**: Funcionalidades interativas.  
+- **HTML**: Estruturação do conteúdo.   
+- **Javascript**: Funcionalidades interativas.  
 
 ## 📜 Explicação do Código
 
-O projeto consiste em um site estático desenvolvido com HTML, CSS e JavaScript. Aqui está um resumo dos arquivos principais:
+O projeto consiste em um site estático desenvolvido com HTML, CSS, Javascript e React para fazer um cadastro. Aqui está um resumo dos arquivos principais:
 
-- **index.html**: Arquivo principal que contém a estrutura do site.
-- **css/estilo.css**: Arquivo de estilos responsável pelo design e layout do site.
-- **js/script.js**: Arquivo JavaScript que adiciona interatividade ao site.
+- **index.js**: Arquivo principal que contém a estrutura do cadastro do site.
+- **components/Cadastro.js**: Arquivo responsável pela estrurutra do cadastro.
+- **Main.js**: Arquivo JavaScript que adiciona interatividade ao site.
 
 ### 📂 Estrutura do Código
 
