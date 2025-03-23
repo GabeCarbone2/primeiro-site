@@ -1,4 +1,4 @@
-import { useState  } from "react";
+import { useState, useEffect} from "react";
 function Cadastro() {
     const [input, setInput ]= useState('');
     const [tarefas, setTarefas ]= useState([
@@ -6,6 +6,18 @@ function Cadastro() {
         "Estudar programação",
         "Enviar a tarefa"
     ]);
+
+    const tarefasStorage = localStorage.getItem('@tarefa');
+
+    useEffect(() => {
+        if(tarefasStorage){
+            setTarefas(JSON.parse(tarefasStorage));
+        }
+    }, [])
+
+    useEffect(() => {
+       localStorage.setItem('@tarefa', JSON.stringify(tarefas));
+    }, [tarefas])
 
     function handleRegistro(e){
     e.preventDefault();
@@ -16,13 +28,13 @@ function Cadastro() {
 
     return (
        <div>
-        <h1>Cafastro de Tarefas</h1>
+        <h1>Cadastro de Tarefas</h1>
 
          <form onSubmit={handleRegistro}>
         <label>Nome da Tarefa: </label><br />
         <input placeholder='Digite uma tarefa'
-        value={nome}
-        onChange={ (e) => setNome(e.target.value)}
+        value={input}
+        onChange={ (e) => setInput(e.target.value)}
         /><br />
 
       <button type='submit'>Registro</button>
