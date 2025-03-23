@@ -27,3 +27,36 @@ Este é o meu primeiro projeto de site pessoal, desenvolvido para aprimorar minh
 
    ```sh
    git clone https://github.com/GabeCarbone2/primeiro-site.git
+   ```
+
+2. **Navegue até o diretório do projeto**:
+
+   ```sh
+   cd primeiro-site
+   ```
+
+3. **Abra o arquivo `index.html`** no seu navegador preferido.
+
+## 📂 Estrutura do Projeto
+
+```
+primeiro-site/
+├── index.html
+├── css/
+│   └── estilo.css
+├── js/
+│   └── script.js
+└── imagens/
+    ├── banner.png
+    ├── home.png
+    ├── sobre.png
+    └── contato.png
+```
+
+## ✨ Funcionalidades
+
+✅ Apresentação Pessoal  
+✅ Portfólio de Projetos  
+✅ Formulário de Contato  
+✅ Layout Responsivo  
+.
