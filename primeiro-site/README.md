@@ -22,4 +22,4 @@ Este repositório contém o código-fonte de um sistema de cadastro de tarefas, 
 
 ## Funcionamento do código
 
-![Funcionamento do código](/home/gabriel/Pictures/2025-03-23_18-29.png)
+![Funcionamento do código](primeiro-site/images/2025-03-23_18-29.png)
