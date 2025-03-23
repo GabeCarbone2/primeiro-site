@@ -1,25 +1,38 @@
 # 🌐 Primeiro Site
 
-![Banner do Projeto](imagens/banner.png)
-
 Este é o meu primeiro projeto de site pessoal, desenvolvido para aprimorar minhas habilidades em desenvolvimento web e compartilhar informações sobre mim.
 
 ## 🚀 Tecnologias Utilizadas
 
-- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) **HTML**: Estruturação do conteúdo.  
-- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) **CSS**: Estilização e layout.  
-- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) **JavaScript**: Funcionalidades interativas.  
+- **HTML**: Estruturação do conteúdo.  
+- **CSS**: Estilização e layout.  
+- **JavaScript**: Funcionalidades interativas.  
 
-## 📸 Capturas de Tela
+## 📜 Explicação do Código
 
-### 🏠 Página Inicial  
-![Home Page](imagens/home.png)
+O projeto consiste em um site estático desenvolvido com HTML, CSS e JavaScript. Aqui está um resumo dos arquivos principais:
 
-### 📜 Sobre Mim  
-![Sobre Mim](imagens/sobre.png)
+- **index.html**: Arquivo principal que contém a estrutura do site.
+- **css/estilo.css**: Arquivo de estilos responsável pelo design e layout do site.
+- **js/script.js**: Arquivo JavaScript que adiciona interatividade ao site.
 
-### 📬 Contato  
-![Contato](imagens/contato.png)
+### 📂 Estrutura do Código
+
+```
+primeiro-site/
+├── index.html       # Estrutura do site
+├── css/
+│   └── estilo.css   # Estilos do site
+├── js/
+│   └── script.js    # Funcionalidades interativas
+└── README.md        # Documentação do projeto
+```
+
+### 📝 Explicação dos Arquivos
+
+- **index.html**: Contém as seções do site, como cabeçalho, apresentação e formulário de contato.
+- **estilo.css**: Define a aparência da página, incluindo cores, fontes e espaçamentos.
+- **script.js**: Pode conter funções para manipulação de elementos, validação de formulários e eventos de clique.
 
 ## 🔧 Como Executar o Projeto
 
@@ -36,22 +49,6 @@ Este é o meu primeiro projeto de site pessoal, desenvolvido para aprimorar minh
    ```
 
 3. **Abra o arquivo `index.html`** no seu navegador preferido.
-
-## 📂 Estrutura do Projeto
-
-```
-primeiro-site/
-├── index.html
-├── css/
-│   └── estilo.css
-├── js/
-│   └── script.js
-└── imagens/
-    ├── banner.png
-    ├── home.png
-    ├── sobre.png
-    └── contato.png
-```
 
 ## ✨ Funcionalidades
 
