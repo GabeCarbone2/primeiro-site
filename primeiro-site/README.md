@@ -19,4 +19,7 @@ Este repositório contém o código-fonte de um sistema de cadastro de tarefas, 
    ```bash
    git clone https://github.com/GabeCarbone2/primeiro-site.git
 
+
+## Funcionamento do código
+
 ![Funcionamento do código](/home/gabriel/Pictures/2025-03-23_18-29.png)
